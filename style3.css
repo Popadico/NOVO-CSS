@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: beige; /* bež pozadina */
+    color: brown; /* braon tekst */
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Stil za zaglavlje */
+  header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: brown;
+    margin-bottom: 20px;
+  }
+  
+  /* Stil za paragraf */
+  .p1 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Stil za listu */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .li1 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+  }
+  
+  .li1 a {
+    color: #6f4f37;
+    text-decoration: none;
+  }
+  
+  .li1 a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Stil za sliku parfema */
+  .parfemi img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Stil za dugme */
+  button {
+    background-color:brown;
+    color: beige;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  button a {
+    color: beige;
+    text-decoration: none;
+  }
+  
+  button:hover {
+    background-color: brown;
+  }

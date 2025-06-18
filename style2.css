@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: brown;
+    background-color: beige;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Stil za zaglavlje */
+  header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Stil za tabelu */
+  .table2 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .table2 th, .table2 td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid brown;
+  }
+  
+  .table2 th {
+    background-color: beige;
+    font-weight: bold;
+  }
+  
+  .table2 tr:nth-child(even) {
+    background-color: beige;
+  }
+  
+  /* Stil za sliku škole */
+  .skola-slika {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .skola-slika img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Stil za dugme */
+  button {
+    background-color: brown;
+    color: beige;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  button a {
+    color: beige;
+    text-decoration: none;
+  }
+  
+  button:hover {
+    background-color: brown;
+  }
